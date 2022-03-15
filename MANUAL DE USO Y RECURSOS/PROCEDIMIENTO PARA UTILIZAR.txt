@@ -1,0 +1,12 @@
+
+******BASE DE DATOS LOCAL*******
+
+1.- Crear Base de datos con nombre: offlinepeso
+2.- En una ventana de pgAdmin y utilizando la base de datos previamente creada, ejecutar el script del archivo: script BD Local.sql
+
+--------------
+1.- Crear una carpeta "Balanza ERP" en Documentos o en alguna otra carpeta de la PC a utilizar.
+2.- Copiar los archivos de la carpeta BalanzaERP/bin/Debug/ en la carpeta creada previamente.
+3.- De los archivos copiados, crear un acceso directo del archivo "BalanzaERP.exe" en el Escritorio.
+4.- De los archivos copiados, modifique el archivo "config.txt" con los datos necesarios para la conexión a la base de datos local, nonbre de la impresora a utilizar.
+
