@@ -75,7 +75,7 @@ namespace BalanzaERP.Controller
                                 retorno.parroquiaid = reader.IsDBNull(5) ? 0 : reader.GetInt32(5);
                                 retorno.tipo = reader.IsDBNull(6) ? "" : reader.GetString(6);
                                 retorno.nombrecomercial = reader.IsDBNull(7) ? "" : reader.GetString(7);
-                                retorno.codigoestablecimientosri = reader.IsDBNull(8) ? "" : reader.GetString(8);
+                                retorno.codigoestablecimientosri = reader.GetString(8) ?? "";
                                 retorno.nummarmita = reader.IsDBNull(9) ? 0 : reader.GetInt32(9);
                             }
                             return retorno;
